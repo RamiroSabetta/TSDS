@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+header {
+    width: 100%;
+    height: max-content;
+
+    background-color: #F5E6CB;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+}
