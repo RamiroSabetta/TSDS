@@ -265,7 +265,78 @@ h1, h2 {
 
 footer {
     width: 100%;
-    height: 100px;
+    height: max-content;
 
     background-color: var(--color-verde-claro);
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor-izquierdo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.titulo-footer-rs {
+    font-family: var(--fuente);
+    font-size: larger;
+    font-weight: 400;
+}
+
+.contenedor-texto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.texto-footer {
+    font-family: var(--fuente);
+
+    font-size: medium;
+
+    font-weight: 500;
+}
+
+.contenedor-iconos-rs-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+
+    overflow: hidden;
+    
+    padding-top: 8px;
+}
+
+.img-footer {
+    width: 24px;
+    height: 24px;
+}
+
+.link-rs {
+    transform: translateY(2px);
+    transition: 0.5s;
+}
+
+.link-rs:hover {
+    transform: translateY(-2px);
+    transition: 0.5s;
 }
