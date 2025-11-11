@@ -44,8 +44,8 @@ header {
 }
 
 .circulo-logo {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
 
     background-color: rgba(233, 233, 233, 0.274);
 
@@ -289,7 +289,7 @@ h1, h2, h3 {
 }
 
 .img-ubicacion {
-    width: 350px;
+    width: 380px;
 
     border: 2px solid rgba(0, 0, 0, 0.550);
 }
