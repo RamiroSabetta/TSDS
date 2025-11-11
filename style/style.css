@@ -103,7 +103,7 @@ main {
     font-weight: bolder;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-size: var(--tamano-titulos);
     font-weight: bold;
 }
@@ -263,6 +263,37 @@ h1, h2 {
     margin-left: 10px;
 }
 
+#seccionUbicacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+    padding-top: 28px;
+    padding-bottom: 20px;
+
+    background-color: inherit;
+}
+
+.contenedor-main-ubicacion {
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-ubicacion {
+    width: 480px;
+
+    border: 2px solid rgba(0, 0, 0, 0.550);
+}
+
 footer {
     width: 100%;
     height: max-content;
@@ -312,6 +343,8 @@ footer {
     font-size: medium;
 
     font-weight: 500;
+
+    text-align: center;
 }
 
 .contenedor-iconos-rs-footer {
