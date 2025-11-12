@@ -249,7 +249,11 @@ h1, h2, h3 {
 }
 
 .tarjeta-ipas, .tarjeta-jobries, .tarjeta-listi, .tarjeta-ficarq, .tarjeta-canelo {
-    background-color: white;
+    height: 180px;
+
+    background-color: rgba(255, 255, 255, 0.140);
+
+    backdrop-filter: blur(15px);
 }
 
 .tarjeta-ipas, .tarjeta-listi, .tarjeta-canelo {
@@ -260,6 +264,14 @@ h1, h2, h3 {
 .tarjeta-jobries, .tarjeta-ficarq {
     margin-right: 15px;
     margin-left: 10px;
+}
+
+.ipas-texto, .jobries-texto, .listi-texto, .ficarq-texto, .canelo-texto {
+    font-family: var(--fuente);
+    font-size: larger;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
 }
 
 #seccionUbicacion {
