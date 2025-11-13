@@ -270,7 +270,7 @@ h1, h2, h3 {
     margin-left: 10px;
 }
 
-.ipas-texto, .jobries-texto, .listi-texto, .ficarq-texto, .canelo-texto {
+.ipas-texto, .jobries-texto, .listi-texto, .ficarq-texto, .canelo-texto, .isfdyt-texto {
     font-family: var(--fuente);
     font-size: larger;
     font-weight: 400;
@@ -352,7 +352,7 @@ footer {
 .titulo-footer-rs {
     font-family: var(--fuente);
     font-size: larger;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .contenedor-texto-footer {
